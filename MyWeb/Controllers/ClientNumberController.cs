@@ -26,6 +26,9 @@ namespace MyWeb.Controllers
                 {
                     message = "資料庫連接成功";
                     Console.WriteLine("小狗旺旺");
+                    Console.WriteLine("小狗叫叫");
+                    Console.WriteLine("小狗叫叫");
+                    Console.WriteLine("小狗叫叫");
                     SqlCommand comm = new SqlCommand();
                     comm.Connection = conn;
                     comm.CommandType = System.Data.CommandType.Text;
