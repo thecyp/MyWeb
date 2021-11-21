@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "客戶查詢-By 客戶編號";
+}
+@**設定查詢輸入表單*@
+<form method="post" action="byCustomerID">
+    <div>客戶編號</div>
+    <input type="text" maxlength="5" required name="id"/>
+    @*觸發按鈕進行整個表單同步交付*@
+    <input type="submit" value="查詢" />
+</form>
+
+

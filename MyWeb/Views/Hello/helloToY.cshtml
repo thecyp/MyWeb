@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "打招呼";
+    <h1>@ViewData["Title"]</h1>
+}
+<div>你好</div>
+@*使用動態的ViewBag取出參考的另外一個動態類型*@
+@{ 
+    //取出網頁物件的動態ViewBag
+    dynamic bag = this.ViewBag;
+    //往袋子內容取一個狀態
+    dynamic message = bag.Message;
+    //直接呈現
+    <div>@message</div>
+}
+
