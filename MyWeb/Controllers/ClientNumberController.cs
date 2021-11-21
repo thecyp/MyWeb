@@ -26,6 +26,12 @@ namespace MyWeb.Controllers
                 {
                     message = "資料庫連接成功";
                     Console.WriteLine("小狗旺旺");
+                    Console.WriteLine("小狗旺旺");
+                    Console.WriteLine("小狗旺旺");
+                    Console.WriteLine("小狗旺旺");
+                    Console.WriteLine("小狗旺旺");
+                    Console.WriteLine("小狗旺旺");
+                    Console.WriteLine("小狗旺旺");
                     Console.WriteLine("小狗叫叫");
                     Console.WriteLine("小狗叫叫");
                     Console.WriteLine("小狗叫叫");
