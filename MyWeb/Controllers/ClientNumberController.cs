@@ -35,9 +35,21 @@ namespace MyWeb.Controllers
                     Console.WriteLine("小狗叫叫");
                     Console.WriteLine("小狗叫叫");
                     Console.WriteLine("小狗叫叫");
+<<<<<<< HEAD
                     Console.WriteLine("小狗發瘋");
                     Console.WriteLine("小狗發瘋");
                     Console.WriteLine("小狗發瘋");
+=======
+                    Console.WriteLine("小狗笑笑");
+                    Console.WriteLine("小狗笑笑");
+                    Console.WriteLine("小狗笑笑");
+                    Console.WriteLine("小狗哭哭");
+                    Console.WriteLine("小狗哭哭");
+                    Console.WriteLine("小狗哭哭");
+                    Console.WriteLine("小狗生氣");
+                    Console.WriteLine("小狗生氣");
+                    Console.WriteLine("小狗生氣");
+>>>>>>> new_fun2
                     SqlCommand comm = new SqlCommand();
                     comm.Connection = conn;
                     comm.CommandType = System.Data.CommandType.Text;
