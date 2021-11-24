@@ -41,6 +41,9 @@ namespace MyWeb.Controllers
                     Console.WriteLine("小狗哭哭");
                     Console.WriteLine("小狗哭哭");
                     Console.WriteLine("小狗哭哭");
+                    Console.WriteLine("小狗生氣");
+                    Console.WriteLine("小狗生氣");
+                    Console.WriteLine("小狗生氣");
                     SqlCommand comm = new SqlCommand();
                     comm.Connection = conn;
                     comm.CommandType = System.Data.CommandType.Text;
