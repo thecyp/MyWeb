@@ -35,7 +35,6 @@ namespace MyWeb.Controllers
                     Console.WriteLine("小狗叫叫");
                     Console.WriteLine("小狗叫叫");
                     Console.WriteLine("小狗叫叫");
-<<<<<<< HEAD
                     Console.WriteLine("小狗發瘋");
                     Console.WriteLine("小狗發瘋");
                     Console.WriteLine("小狗發瘋");
